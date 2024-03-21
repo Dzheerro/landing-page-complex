@@ -94,7 +94,7 @@ body {
 }
 
 .header {
-  background-image: url("assets/header.jpg");
+  background-image: url("assets/header.jpeg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -163,9 +163,7 @@ nav {
 .header__container p {
   margin-bottom: 1rem;
   font-size: 1.2rem;
-  color: var(--white);
   text-align: center;
-  opacity: 0.6;
 }
 
 .header__container h1 {
@@ -177,7 +175,7 @@ nav {
 }
 
 .header__container h1 span {
-  color: var(--primary-color);
+  color: var(--primary-color)
 }
 
 .booking__container {
@@ -323,7 +321,7 @@ nav {
 }
 
 .service {
-  background-image: url("assets/service.jpg");
+  background-image: url("assets/services.jpeg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -425,7 +423,7 @@ nav {
     minmax(1rem, 1fr)
     minmax(0, var(--max-width))
     minmax(1rem, 1fr);
-  background-image: url("assets/explore.jpg");
+  background-image: url("assets/explore.jpeg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
