@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Landing Page</title>
+    <title>Flemi</title>
   </head>
   <body>
     <header class="header">
@@ -25,7 +25,6 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#service">Services</a></li>
-          <li><a href="#explore">Explore</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -149,6 +148,25 @@
       </div>
     </section>
 
+    <div class="container">
+      <h2>Fill out the form</h2>
+      <form id="myForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
     <footer class="footer" id="contact">
       <div class="section__container footer__container">
         <div class="footer__col">
@@ -156,10 +174,22 @@
             <a href="#home"><img src="assets/logo.png" alt="logo" /></a>
           </div>
           <p class="section__description">
-            Embark on a journey of financial comfort, stability, and opportunity as you explore our meticulously curated selection of investment options, ensuring each step of your financial journey is truly exceptional.
+            Discover a world of comfort, luxury, and adventure as you explore
+            our curated selection of hotels, making every moment of your getaway
+            truly extraordinary.
           </p>
         </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="cookies.html">Сookies Policy</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="term.html">Term of Use</a></li>
+          </ul>
+        </div>
+
     </footer>
+
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
